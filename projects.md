@@ -95,7 +95,7 @@ These are design projects we have initiated ourselves.
         <p>{{- item.description -}}</p>
         <div class="links">
           {% for link in item.links %}
-            <a href="{{- link.link -}}" target="_blank" rel="noopener">{{ link.name }}</a>
+            <a href="{{- link.link -}}" target="_blank" rel="noopener">{{ link.name }}</a>  
           {% endfor %}
         </div>
       </div>
